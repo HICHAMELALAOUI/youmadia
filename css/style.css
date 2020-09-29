@@ -5694,6 +5694,12 @@ html.rd-navbar-fixed-linked header {
   box-sizing: content-box;
 }
 
+@media (min-width: 700px) {
+  .swiper-wrapper {
+    top: -100px;
+  }
+}
+
 .swiper-container {
   flex-shrink: 0;
 }
