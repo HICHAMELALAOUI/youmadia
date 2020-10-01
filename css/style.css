@@ -721,7 +721,7 @@ a[href*="mailto"] {
 
 .box-round-wrap {
   position: relative;
-  max-width: 40vw;
+  max-width: 45vw;
 }
 
 @media (min-width: 992px) {
