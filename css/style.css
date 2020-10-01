@@ -2221,7 +2221,7 @@ textarea.form-input {
   position: relative;
   border-radius: 60px 4px;
   transition: all 0.3s;
-  color: #000000;
+  color: white;
   margin: 0 auto;
 }
 
@@ -2255,7 +2255,7 @@ textarea.form-input {
 
 .post-classic-title {
   letter-spacing: -0.02em;
-  color: #000000;
+  color: white;
 }
 
 .post-classic-text {
@@ -3444,15 +3444,15 @@ html [class*="section-"].section-bottom-0 {
 * Secondary Backgrounds
 */
 .bg-secondary-1 {
-  background-color: #fff8bd;
+  background-color: #001453;
 }
 
 .bg-secondary-2 {
-  background-color: #ecfcf9;
+  background-color: #001453;
 }
 
 .bg-secondary-3 {
-  background-color: #dff9d9;
+  background-color: #001453;
 }
 
 /*
