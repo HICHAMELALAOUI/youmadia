@@ -2,7 +2,7 @@
 <html class="wide wow-animation" lang="en">
   <!-- Mirrored from netsharp.biz/1/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 25 Sep 2020 20:54:01 GMT -->
   <head>
-    <title>Home</title>
+    <title>Youm With Mady</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="../css/bootstrap.css" />
     <link rel="stylesheet" href="../css/fonts.css" />
     <link rel="stylesheet" href="../css/style.css" />
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
       .ie-panel {
         display: none;
@@ -741,18 +743,47 @@
         </div>
       </footer-->
       <div class="container" style="padding-top: 10px;">
-      <div class="row">
-        <div class="form-group col-md-4 m-t-20">
-         <img src="../images/home-01-455x685.png" class="rounded">
-        </div>
-        <div class="form-group col-md-4 m-t-20">
-           <img src="../images/home-01-455x685.png">
-        </div>
-        <div class="form-group col-md-4 m-t-20">
-           <img src="../images/home-01-455x685.png">
-        </div>
-       </div>
-        
+     <style>
+.mySlides {display:none;
+
+
+text-align: center;
+    height: 60vh;
+    margin: 0 auto;}
+</style>
+
+<h2 class="w3-center"></h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="../images/1.jpg" style="">
+  <img class="mySlides" src="../images/2.jpg" style="">
+  <img class="mySlides" src="../images/3.jpg" style="">
+  <img class="mySlides" src="../images/4.jpg" style="">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<h2 class="w3-center"></h2>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
       </div>
       <div class="" style="background-color:#001453;padding-top: 10px;">
       <div class="row text-center py-5">
