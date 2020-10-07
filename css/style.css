@@ -10803,3 +10803,26 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
     opacity: 0;
   }
 }
+
+
+@media (max-width: 992px) {
+  .rd-navbar-fixed .rd-navbar-brand img {
+    width: auto !important;}
+
+    .col-lg-5{
+      width: auto !important;
+    max-width: 86vw;
+    margin-left: 0px;
+    }
+    .big {
+    font-size: 18px;
+  }
+  .swiper-slide-caption .container {
+    padding-right: 0;
+    padding-left: 0;
+    }
+    .row {
+    width: 250px !important;
+    margin: 0 auto !important;
+}
+
