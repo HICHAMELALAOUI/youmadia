@@ -10823,6 +10823,8 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
     }
     .row {
     width: 250px !important;
-    margin: 0 auto !important;
+    margin: 0 auto !important;}
+    .box-custom-2 img {
+    max-width: 100%;}
 }
 
