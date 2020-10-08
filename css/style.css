@@ -10827,5 +10827,9 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
     .box-custom-2 img {
     max-width: 100%;
   }
+  iframe{
+    max-width: 100%;
+    height: auto;
+  }
 }
 
