@@ -71,10 +71,15 @@
         <div class="ball"></div>
       </div>
     </div>
+      <script>
+      setTimeout(function() {
+    $('.preloader').fadeOut('fast');
+}, 1500); // <-- time in milliseconds
+</script>
     <!-- Panel Thumbnail-->
     <!-- Template panel-->
 
-    <div class="page">
+    <div class="page" style="opacity: 1;">
       <header class="section page-header" id="programs">
         <!--RD Navbar-->
         <div class="rd-navbar-wrap">
@@ -870,6 +875,10 @@ function showDivs(n) {
       </div>
   </div>
     </div>
+    <div class="text-center" style="padding-bottom: 10px;background: #001453;">
+              <span style="color:white;">  Développé par</span><a style="color:white;" href="https://hicham.tech"> Hicham.tech</a>
+              
+            </div>
     <div class="snackbars" id="form-output-global"></div>
     <script src="../js/core.min.js"></script>
     <script src="../js/script.js"></script>

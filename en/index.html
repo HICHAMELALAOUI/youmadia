@@ -63,8 +63,12 @@ quick and tasty."
     </div>
     <!-- Panel Thumbnail-->
     <!-- Template panel-->
-
-    <div class="page">
+  <script>
+      setTimeout(function() {
+    $('.preloader').fadeOut('fast');
+}, 1500); // <-- time in milliseconds
+</script>
+    <div class="page" style="opacity: 1;">
       <header class="section page-header" id="programs">
         <!--RD Navbar-->
         <div class="rd-navbar-wrap">
@@ -106,7 +110,15 @@ quick and tasty."
                         alt=""
                         width="134"
                         height="50"
-                    /></a>
+                    /></a><img
+                style="    width: 20px;
+"
+                src="../images/fr.png"
+            /><img
+                style="    width: 20px;
+"
+                src="../images/ar.png"
+            />
                   </div>
                 </div>
                 <div class="rd-navbar-nav-wrap">
@@ -857,6 +869,10 @@ function showDivs(n) {
       </div>
   </div>
     </div>
+    <div class="text-center" style="padding-bottom: 10px;background: #001453;">
+              <span style="color:white;">  Developed by</span><a style="color:white;" href="https://hicham.tech"> Hicham.tech</a>
+              
+            </div>
     <div class="snackbars" id="form-output-global"></div>
     <script src="../js/core.min.js"></script>
     <script src="../js/script.js"></script>
